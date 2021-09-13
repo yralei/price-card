@@ -1,0 +1,127 @@
+.price-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 9px;
+  max-width: 380px;
+  max-height: 770px;
+  overflow: hidden;
+  background: $color-grey;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+  &__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 380px;
+    height: 130px;
+  }
+  &__title-basic {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 43px;
+  }
+  &__title-website {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+  }
+
+  &__price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+    height: 105px;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 67px;
+  }
+  &__description {
+    margin: 40px 26px;
+    line-height: 18px;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+  }
+  &__options-list {
+    margin: 0;
+    padding: 0;
+    line-height: 50px;
+    font-weight: 300;
+    font-size: 15px;
+    list-style-type: none;
+  }
+  &__list-item {
+    position: relative;
+    display: flex;
+    padding-left: 59px;
+    width: 100%;
+    line-height: 50px;
+
+    &:nth-child(odd) {
+      background: $color-dark-grey;
+    }
+  }
+
+  &__list-item_green {
+    top: 18px;
+    left: 22px;
+    width: 15px;
+    height: 13px;
+    position: absolute;
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+  }
+  &__list-item_blue {
+    top: 18px;
+    left: 22px;
+    width: 15px;
+    height: 13px;
+    position: absolute;
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+  }
+  &__list-item_orange {
+    top: 18px;
+    left: 22px;
+    width: 15px;
+    height: 13px;
+    position: absolute;
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+  }
+
+  &__order-btn {
+    margin: auto;
+    margin-top: 39px;
+    margin-bottom: 40px;
+    width: 155px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    color: $color-white;
+  }
+}
+.price-green-color {
+  background: $green-color;
+}
+.price-blue-color {
+  background: $color-blue;
+}
+.price-orange-color {
+  background: $color-orange;
+}
+.popular {
+  position: absolute;
+  top: 32px;
+  right: -30px;
+  transform: rotate(45deg);
+  width: 147px;
+  height: 25px;
+  line-height: 25px;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  background: $color-red;
+  color: $color-white;
+}
