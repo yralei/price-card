@@ -2,7 +2,7 @@
 
 ## Quick start
 
-[click this link]()
+[click this link](https://yralei.github.io/price-card/)
 
 ##### The teach task is:
 
